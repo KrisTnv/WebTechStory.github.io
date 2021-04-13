@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+	padding: 0px;
+	color: #6c6969;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em; 
+	background-color: #252423;
+   }
+   header, footer {
+    font-size: large;
+    text-align: center;
+    padding: 0.3em 0;
+    background-color: #FFFBF4;
+    color: #F7DC6F;
+	height: 70px;
+   }
+   nav { background: #eee; }
+   main { background: #f9f9f9; }
+   aside { background: #eee; }
+   body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 200px 1fr 150px;
+    grid-template-rows: min-content 1fr min-content;
+   }
+   header {
+    grid-row: 1;
+    grid-column: 1 / 4;
+	background-image: url(images/wood6.jpeg);
+	color: #F7DC6F;
+	padding: 55px 0 0 0;
+	font-size: 30px;
+	
+   }
+   nav {
+    grid-row: 2;
+    grid-column: 1 / 2;
+    padding: 0 10px;
+	color: #e9bb7b;
+	background: url(images/stone.jpg)
+   }
+   main {
+    grid-row: 2;
+    grid-column: 2 / 3;
+    padding: 0 20px;
+	font-size: 15px;
+	color: #F7DC6F;
+	background: url(images/login.png)
+   }
+   aside {
+    grid-row: 2;
+    grid-column: 3 / 4;
+    padding: 0 10px;
+	color: #e9bb7b;
+	background: url(stone.jpg)
+   }
+   footer {
+    grid-row: 3;
+    grid-column: 1 / 4;
+	background-image: url(images/wood6.jpeg);
+	padding: 55px 0 0 0;
+   }
+   
+  /*Lines 65-69 Adapted from https://templatemo.com/tm-249-ancient */
+.list { margin: 0 0 0 20px; padding: 0; list-style: none }
+.list li { color:#9c7449; margin:0 0 5px; padding: 3px 0 3px 15px; background:url(images/list.png) no-repeat scroll 0 10px }
+.list li a { color: #9c7449; text-decoration: underline }
+.list li a:hover { color: #AAAA00 }
+
+.first_button {
+    padding: 15px 32px;
+    background-color: #D35400;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid black; 
+  }
+  
+  .second_button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  
