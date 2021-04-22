@@ -7,3 +7,5 @@ function BadEnding() {
 function Restart() {
     alert('Restarting the game!');
 }
+var d = new Date();
+document.getElementById("date").innerHTML = d;
